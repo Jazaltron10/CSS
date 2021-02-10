@@ -1,0 +1,499 @@
+@font-face{
+    font-family: Sectar ;
+    src: url('Sectar.otf');
+}
+
+@font-face{
+    font-family:Backslash;
+    src: url('Backslash.otf'); 
+}
+
+@font-face{
+    font-family:HelloMelda ;
+    src: url('HelloMelda.otf');
+}
+
+@font-face{
+    font-family:Lesleydemo ;
+    src: url('Lesleydemo.otf');
+}
+
+@font-face{
+    font-family:HigherJump ;
+    src: url('HigherJump.ttf');
+}
+
+@font-face{
+    font-family:BillionDreams ;
+    src: url('BillionDreams.ttf');
+}
+
+@font-face{
+    font-family:summermiracle ;
+    src: url('summermiracle.ttf');
+}
+
+@font-face{
+    font-family:LovelygirlyDemo ;
+    src: url('LovelygirlyDemo.otf');
+}
+
+@font-face{
+    font-family:MonkeyactPersonaluse ;
+    src: url('MonkeyactPersonaluse.otf');
+}
+
+@font-face{
+    font-family:Cointa ;
+    src: url('Cointa.ttf');
+}
+
+@font-face{
+    font-family:BeautifulPeoplePersonalUse ;
+    src: url('BeautifulPeoplePersonalUse.ttf');
+}
+
+@font-face{
+    font-family:LovelyHome ;
+    src: url('LovelyHome.ttf');
+}
+
+@font-face{
+    font-family:saturday ;
+    src: url('saturday.ttf');
+}
+
+@font-face{
+    font-family:saturdaybold ;
+    src: url('saturdaybold.ttf');
+}
+
+@font-face{
+    font-family:saturdaythin ;
+    src: url('saturdaythin.ttf');
+}
+
+@font-face{
+    font-family:stylishdemo ;
+    src: url('stylishdemo.ttf');
+}
+
+@font-face{
+    font-family:BeautifulPeoplePersonalUse(2) ;
+    src: url('BeautifulPeoplePersonalUse(2).ttf');
+}
+
+
+
+
+header{
+    color: yellow;
+    font-family: fantasy;
+    font-size: large;
+    text-decoration:underline;
+    text-align: center;
+    background-image: url("dog.png"),url("cat.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: left top, right top;  
+}
+
+/*THIS SECTION STYLES THE HEADINGS FOR ALL THE OTHER SECTIONS*/
+
+h2{
+font-family: cursive;    
+color: aqua;    
+text-align: center;
+text-shadow: 3px 3px 4px darkblue;
+text-decoration:none;
+background-image: url("jpg");
+background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+border-radius: 20px;
+border:2px ridge aquamarine;
+background-color: yellow;
+}
+body {
+    background-color:salmon;
+    color:snow;
+}
+
+
+
+/*THIS SECTION DESCRIBES INTRODUCING THE BOX MODEL*/
+
+.box-model{
+
+    width: 96%;
+    height: 500px;
+    margin: 0em;
+    background-image: url("lake.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 50px;
+}
+
+/*THIS SECTION DESCRIBES UNDERSTANDING THE BOX MODEL*/
+.box-model{
+    margin-top: 15px;
+    margin-right: 15px; 
+    margin-left: 15px;
+    margin-bottom: 15px;
+} 
+.box-model{
+    border-bottom: 20px;
+    border-top: 20px;
+    border-left: 20px;
+    border-right: 20px;
+
+}
+.box-model{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*THIS SECTION DESCRIBES BORDERS*/
+.eg1>p {
+    padding: 10px;    
+    border: 5px solid green;
+}
+/*border-width*/
+ .eg2>p.first {
+    padding: 10px;    
+    border-style: solid;
+    border-width: 2px;
+}
+ .eg2>p.second {
+    padding: 10px;    
+    border-style: solid;
+    border-width: 5px;
+}
+h4{
+    font-weight: bolder;
+    color: yellow;
+}
+/*border-color*/
+.eg3>p.first {
+        padding: 10px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: blue;
+}
+.eg3>p.second {
+        padding: 10px;    
+        border-style: solid;
+        border-width: 2px;
+        border-color: #FF6600;
+} 
+.eg3>p.third {
+        padding: 10px;    
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(0, 153, 0);
+} 
+/*border-style*/
+.eg4>p.none {border-style: none;}
+.eg4>p.dotted {border-style: dotted;}
+.eg4>p.dashed {border-style: dashed;}
+.eg4>p.double {border-style: double;}
+.eg4>p.groove {border-style: groove;}
+.eg4>p.ridge {border-style: ridge;}
+.eg4>p.inset {border-style: inset;}
+.eg4>p.outset {border-style: outset;}
+.eg4>p.hidden {border-style: hidden;}
+/*border-combinations*/
+.eg5>p.combo1{
+    padding:100px;
+    border: 20px groove orange;
+    margin: 20px;
+    background-color: green;
+}
+.eg5>p.combo2{
+    padding:20px;
+    border:10px ridge purple;
+}
+.eg5>p.combo3{
+    border-top-style: groove;
+    border-top-color:red;
+    border-top-width:10px;
+    border-bottom-style: double ;
+    border-bottom-color:limegreen;
+    border-bottom-width:10px;
+    border-right-style: dotted;
+    border-right-color:yellow;
+    border-right-width:10px;
+    border-left-style: dashed;
+    border-left-color:blue;
+    border-left-width:10px;
+    margin:20px;
+    padding:100px;
+    text-align:center;
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    color:yellow;
+    text-shadow:3px 3px 5px red;
+    background-color: mediumpurple;
+    text-decoration:underline;
+}
+
+
+
+/*THIS SECTION DESCRIBES WIDTH AND HEIGHT*/
+.wh1{
+    margin:20px;
+    padding:5px;
+    border: 5px groove rgb(29, 194, 29);    
+    width: 90px;
+    height: 90px;
+ }
+.wh2{
+    border: 5px solid green;    
+    width: 100%;
+    height: 90px;
+    padding:5px;
+ }
+ .wh3>.first {
+    border: 5px solid green;    
+    min-height: 100px;
+    padding:5px;       
+ }
+ .wh3>.second {
+    border: 5px solid green;    
+    max-width: 100px;
+    padding:5px;       
+ }
+/*THIS SECTION DESCRIBES BACKGROUND-COLOR*/
+ .background-color>h1{
+    background-color: rgb(135,206,235);
+ }
+ .background-color>p{
+    background-color: LightGreen;
+ }
+
+/*THIS SECTION DESCRIBES BACKGROUND-IMAGE*/
+.bg{
+    padding:8px;
+    width:100%;
+    height:50px;
+    background-image: url("green.jpg");
+    color:lime;
+    text-shadow:6px 6px 10px grey;
+}
+.background-image{
+    padding:8px;
+    width:100%;
+    height:240px;
+    background-image: url("dog.png");
+    background-size: 100px 100px;
+ }
+
+
+/*THIS SECTION DESCRIBES BACKGROUND-REPEAT*/
+.repeat{
+    background-image: url("cat.png");
+    background-repeat: repeat-x;
+    width:100%;
+    height:60px; 
+    background-size:50px 50px ; 
+ }
+ .repeat-2{
+    background-image: url("iguana.png");
+    background-repeat: repeat-y;
+    width:100%;
+    height:300px;
+    background-size:50px 50px ;
+ }
+.repeat-2>p{
+    background-image: url("iguana.png");
+    background-repeat: inherit;
+    margin-top: 10px;
+ }
+
+
+
+/*THIS SECTION DESCRIBES BACKGROUND-ATTACHMENT*/
+ .bgfixed{
+    background-image: url("hamster.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:rgb(3, 148, 3);
+}
+.bgscroll{
+    background-image: url("bag.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    color:yellow;
+ }
+
+
+/*THIS SECTION DESCRIBES STYLING THE LISTS*/
+.liststyle{
+    color:lemonchiffon;
+}
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+ }
+ ul.circle {
+    list-style-type: circle;
+ }
+ ul.square {
+    list-style-type: square;
+ }
+
+/*
+.lsposimg ul {
+    list-style-image: url("cat.png");
+    list-style-position: inside;
+ }*/
+
+
+ .listshort ul {
+    list-style: lower-latin outside none;
+ }
+
+
+
+/*THIS SECTION DESCRIBES STYLING THE TABLES*/
+/*THIS TABLE 1*/
+.table1 {
+    margin-top:20px ;
+    margin-left: 10px;
+    border-collapse: separate;
+    border-spacing: 3px 3px;
+    text-align: center;
+    color: red;
+    border:10px ridge red ;
+    background-color:whitesmoke;
+}
+.table1>caption {
+    color:whitesmoke;
+    caption-side:top;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table1 td:hover{
+    color: whitesmoke;
+    border:3px ridge red ;
+    background-color:red;
+    cursor: pointer;
+}
+
+
+
+/*THIS TABLE 2*/
+.table2{
+    margin-top:20px ;
+    margin-left: 10px;
+    color:rgb(255, 255, 9);
+    background-color: rgb(50, 78, 205);
+    border:10px ridge yellow ;
+    border-spacing: 2px 2px;
+    text-align: center;
+}
+.table2>caption {
+    color:yellow;
+    caption-side:top;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table2 td:hover{
+    border: 2px solid yellow;
+    cursor: pointer;
+    color: rgb(50, 78, 205);
+    background-color: rgb(255, 255, 9);
+ }
+ .table2 th:hover{
+    color: rgb(50, 78, 205);
+    background-color: chartreuse;
+    border: 5px solid chartreuse;
+}
+
+
+
+/*THIS TABLE 3*/
+.table3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: chartreuse;
+    background-color: grey;
+    border:10px groove chartreuse ;
+    border-spacing: 2px 2px;
+    text-align: center;
+    empty-cells: show;/*hide or show*/
+    caption-side: top;
+ }
+ 
+ .table3 td:hover{
+    color: grey;
+    background-color: chartreuse;
+    border: 2px groove chartreuse;
+    cursor: pointer;
+ }
+ 
+ .table3>caption {
+    color:chartreuse;
+    caption-side:top;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+ /*THIS TABLE 4*/
+ /*Auto and Fixed*/
+table{
+   
+    width: 100%;
+    border: 10px solid white;
+ } 
+ 
+ td.auto-10:hover{
+    border: 4px solid blue;
+ }
+ 
+ td.auto-90:hover{
+    border: 4px solid blue;
+ }
+ 
+ td.fixed-10:hover{
+    border: 4px solid red;
+ }
+ 
+ td.fixed-90:hover{
+    border: 4px solid red;
+ }
+ 
+ table.auto {
+    table-layout: auto;
+ }
+ 
+ table.fixed {
+    table-layout: fixed;
+ }
+
+/*THIS SECTION DESCRIBES STYLING THE LINKS*/
+a:hover {
+    color: yellow;
+}
+ 
+a:link {
+    text-decoration: none;
+}
+
+/*THIS SECTION DESCRIBES CUSTOMISING THE MOUSE CURSOR*/
+.cursor{
+    cursor: pointer;
+}
+
+
+
+
