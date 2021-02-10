@@ -1,0 +1,231 @@
+@font-face{
+    font-family: Sectar ;
+    src: url('fonts/Sectar.otf');
+}@font-face{
+    font-family:Backslash;
+    src: url('fonts/Backslash.otf'); 
+}@font-face{
+    font-family:HelloMelda ;
+    src: url('fonts/HelloMelda.otf');
+}@font-face{
+    font-family:Lesleydemo ;
+    src: url('fonts/Lesleydemo.otf');
+}@font-face{
+    font-family:HigherJump ;
+    src: url('fonts/HigherJump.ttf');
+}@font-face{
+    font-family:BillionDreams ;
+    src: url('fonts/BillionDreams.ttf');
+}@font-face{
+    font-family:summermiracle ;
+    src: url('fonts/summermiracle.ttf');
+}@font-face{
+    font-family:LovelygirlyDemo ;
+    src: url('fonts/LovelygirlyDemo.otf');
+}@font-face{
+    font-family:MonkeyactPersonaluse ;
+    src: url('fonts/MonkeyactPersonaluse.otf');
+}@font-face{
+    font-family:Cointa ;
+    src: url('fonts/Cointa.ttf');
+}@font-face{
+    font-family:BeautifulPeoplePersonalUse ;
+    src: url('fonts/BeautifulPeoplePersonalUse.ttf');
+}@font-face{
+    font-family:LovelyHome ;
+    src: url('fonts/LovelyHome.ttf');
+}@font-face{
+    font-family:saturday ;
+    src: url('fonts/saturday.ttf');
+}@font-face{
+    font-family:saturdaybold ;
+    src: url('fonts/saturdaybold.ttf');
+}@font-face{
+    font-family:saturdaythin ;
+    src: url('fonts/saturdaythin.ttf');
+}@font-face{
+    font-family:stylishdemo ;
+    src: url('fonts/stylishdemo.ttf');
+}@font-face{
+    font-family:BeautifulPeoplePersonalUse(2) ;
+    src: url('fonts/BeautifulPeoplePersonalUse(2).ttf');
+}
+
+
+
+
+header{
+    text-shadow:2px 2px 4px yellow;
+    font-family:Sectar;
+    text-decoration:underline;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+/*
+file paths
+../CSS FILES/SECTION 8/HTML5.CSS
+*/
+body {
+    text-align: center;
+    font-family: cursive;
+    background:-webkit-linear-gradient(270deg,black,grey,dimgrey,black);
+    color:orange;
+}
+
+h2{
+    text-shadow:2px 2px 4px yellow;
+    font-family:Backslash;
+    text-align: center;
+    color:red;
+    background:orange;  
+    border-radius: 20px;
+    border:5px inset red;
+}
+
+
+
+/*THIS SECTION DESCRIBES CSS FILTERS*/
+.dropshadow img{
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px lime);
+}
+.dropshadow img:hover{
+    cursor: pointer;
+    margin-bottom: 10px;
+    height: 380px;
+    width: 740px;
+    filter: drop-shadow(0px 0px 10px lime);
+}
+
+
+/*THIS SECTION DESCRIBES FILTER FUNCTIONS*/
+.grayscale img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px yellow);
+    filter: grayscale(100%);
+}  
+
+.sepia img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px orange);
+    filter: sepia(100%);
+      
+}  
+.saturate img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px deepSkyblue);
+    filter: saturate(30%);
+}  
+.hue-rotate img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px salmon);
+    filter: hue-rotate(15deg);
+}  
+.invert img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px indigo );
+    filter: invert(70%);
+}  
+
+
+
+
+
+/*THIS SECTION DESCRIBES OPACITY & BRIGHTNESS*/
+ 
+.opacity img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px deepSkyblue);
+    filter: opacity(45%);
+} 
+ 
+.brightness img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px deepSkyblue);
+    filter: brightness(150%);
+}  
+.contrast img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px deepSkyblue);
+    filter: contrast(240%);
+}  
+.blur img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 4px deepSkyblue);
+    filter: blur(5px);
+} 
+
+
+
+
+
+
+
+
+
+/*THIS SECTION DESCRIBES USING MULTIPLE CSS FILTERS*/
+.filter-1 img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 10px red) hue-rotate(180deg);
+}
+.filter-2 img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 10px lime) blur(1px) saturate(30%);
+}
+.filter-3 img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 10px deepSkyblue) brightness(150%) sepia(100%);
+}
+.filter-4 img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 8px deepSkyblue) contrast(150%) grayscale(40%);
+}
+.filter-5 img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 360px;
+    width: 720px;
+    filter: drop-shadow(0px 0px 8px lime) hue-rotate(280deg) brightness(125%);
+}
