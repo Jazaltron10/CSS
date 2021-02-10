@@ -1,0 +1,300 @@
+header{
+   color: green;
+   font-family:fantasy;
+   font-size: large;
+   text-decoration:underline;
+   text-align: center;
+   background-image: url("dog.png"),url("cat.png");
+   background-size: 50px 50px;
+   background-repeat: no-repeat;
+   background-position: left top, right top;  
+}
+
+
+
+h2{color:salmon;
+font-family:'Times New Roman', Times, serif;
+}
+body{background-color: turquoise;}
+
+h2>a:hover
+{
+  font-family: cursive;
+  color:yellow;
+  text-shadow:-5px 8px 4px orangered;
+  font-size: xx-large;
+  text-decoration: none;
+  text-align: center;
+  cursor:pointer;
+  text-transform: uppercase;
+}
+
+
+
+/* THIS BLOCK OF TEXT DESCRIBES THE FONT-FAMILY */
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+ }
+ p.sansserif {
+    font-family: Helvetica, Arial, sans-serif;
+ }
+ p.monospace {
+    font-family: "Courier New", Courier, monospace;
+ }
+ p.cursive {
+    font-family: Florence, cursive;
+ }
+ p.fantasy {
+    font-family: Blippo, fantasy;
+ }
+ 
+
+
+
+/* THIS BLOCK OF TEXT DESCRIBES THE FONT-SIZE */
+ p.small {
+    font-size: small;
+ }
+ p.medium {
+    font-size: medium;
+ }
+ p.large {
+    font-size: large;
+ }
+ p.xlarge {
+    font-size: x-large;
+ }
+ p.pixels {
+    font-size: 20px;
+ }
+ p.em {
+    font-size: 1.25em;
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES THE FONT-STYLE */
+ p.normal {
+    font-style: normal;
+ }
+ p.italic {
+    font-style: italic;
+ }
+ p.oblique {
+    font-style: oblique;
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES THE FONT-WEIGHT */
+ p.light {   
+    font-weight: lighter;
+ }
+ p.bold {   
+    font-weight: bold;
+ }
+ p.bolder {
+    font-weight: bolder;
+ }
+ p.thicker {
+    font-weight: 720;
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES THE FONT-VARIANT */
+ p.normal {
+    font-variant: normal;
+ }
+ p.small {
+    font-variant: small-caps;
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES THE COLOR */
+ p.limegreen {
+    color: limegreen;
+ }
+ .color > h1{
+    color: #0000FF;
+ }
+ p.example {
+    color: rgb(255,0,0);
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES ALIGNING TEXT HORIZONTALLY */
+ p.left {
+    text-align: left;
+ }
+ p.right {
+    text-align: right;
+ }
+ p.center {
+    text-align: center;
+ }
+ p.justify {
+    text-align: justify;
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES ALIGNING TEXT VERTICALLY */
+ td.top {
+    vertical-align: top;
+ }
+ td.middle {
+    vertical-align: middle;
+ }
+ td.bottom {
+    vertical-align: bottom;
+ }
+/*------------------------------------------*/
+ span.baseline {
+    vertical-align: baseline;
+}
+span.sub {
+    vertical-align: sub;
+}
+span.super {
+    vertical-align: super;
+}
+span.pixel {
+    vertical-align: -10px;
+}
+/*------------------------------------------*/
+.main {
+    height: 150px; width: 400px;
+    background-color: Lightgreen;
+    display: inline-table;
+}
+.paragraph {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES TEXT-DECORATION */
+ p.none {
+    text-decoration: none;
+ }
+ p.inherit {
+    text-decoration: inherit;
+ }
+ p.overline {
+    text-decoration: overline;
+ }
+ p.underline {
+    text-decoration: underline;
+ }
+ p.line-through {
+    text-decoration: line-through;
+ }
+ p.combine {
+    text-decoration: line-through overline underline;
+ }
+ p.blink {
+    text-decoration: blink;
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES INDENTING THE TEXT */
+ p.indent {
+    text-indent: 60px;
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES TEXT-SHADOW */
+ h3 {
+    color: salmon;
+    font-size: 30pt;
+    text-shadow: 5px 2px 4px lightSkyBlue;
+ }
+
+ .text-shadow>h1 {
+    color:purple;
+    font-size: 20pt;   
+    text-shadow: rgb(229, 255, 0) -4px -5px 0.2em; 
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES TEXT-TRANSFORM */
+ p.capitalize {
+    text-transform: capitalize;
+ }
+ p.uppercase {
+    text-transform: uppercase;
+ }
+ p.lowercase {
+    text-transform: lowercase;
+ }
+ .uppercase>span{color:red;
+font-weight: 500;
+font-size: larger;
+text-shadow: 3px 4px 2.5px grey; 
+}
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES LETTER-SPACING */
+ p.normal { 
+    letter-spacing: normal; 
+ }
+ p.positive { 
+    letter-spacing: 4px; 
+ }
+ p.negative { 
+    letter-spacing: -1.5px; 
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES WORD-SPACING */
+ p.normal { 
+    word-spacing: normal;
+ }
+ p.px { 
+    word-spacing: 30px;
+ }
+ p.positive { 
+    word-spacing: 20px;
+ }
+ p.negative { 
+    word-spacing: -5px;
+ }
+
+
+
+
+ /* THIS BLOCK OF TEXT DESCRIBES WHITE-SPACING */
+ p .nowrap{
+    white-space: nowrap;
+ }
+ p.pre {
+    white-space: pre;
+ }
+ p.preline {
+    white-space: pre-line;
+ }
+ p.prewrap {
+    white-space: pre-wrap;
+ }
+ 
