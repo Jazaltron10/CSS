@@ -1,0 +1,505 @@
+@font-face{
+    font-family: Sectar ;
+    src: url('FONTS/Sectar.otf');
+}@font-face{
+    font-family:Backslash;
+    src: url('FONTS/Backslash.otf'); 
+}@font-face{
+    font-family:HelloMelda ;
+    src: url('FONTS/HelloMelda.otf');
+}@font-face{
+    font-family:Lesleydemo ;
+    src: url('FONTS/Lesleydemo.otf');
+}@font-face{
+    font-family:HigherJump ;
+    src: url('FONTS/HigherJump.ttf');
+}@font-face{
+    font-family:BillionDreams ;
+    src: url('FONTS/BillionDreams.ttf');
+}@font-face{
+    font-family:summermiracle ;
+    src: url('FONTS/summermiracle.ttf');
+}@font-face{
+    font-family:LovelygirlyDemo ;
+    src: url('FONTS/LovelygirlyDemo.otf');
+}@font-face{
+    font-family:MonkeyactPersonaluse ;
+    src: url('FONTS/MonkeyactPersonaluse.otf');
+}@font-face{
+    font-family:Cointa ;
+    src: url('FONTS/Cointa.ttf');
+}@font-face{
+    font-family:BeautifulPeoplePersonalUse ;
+    src: url('FONTS/BeautifulPeoplePersonalUse.ttf');
+}@font-face{
+    font-family:LovelyHome ;
+    src: url('FONTS/LovelyHome.ttf');
+}@font-face{
+    font-family:saturday ;
+    src: url('FONTS/saturday.ttf');
+}@font-face{
+    font-family:saturdaybold ;
+    src: url('FONTS/saturdaybold.ttf');
+}@font-face{
+    font-family:saturdaythin ;
+    src: url('FONTS/saturdaythin.ttf');
+}@font-face{
+    font-family:stylishdemo ;
+    src: url('FONTS/stylishdemo.ttf');
+}@font-face{
+    font-family:BeautifulPeoplePersonalUse(2) ;
+    src: url('FONTS/BeautifulPeoplePersonalUse(2).ttf');
+}
+
+
+
+header{
+    font-family:Sectar;
+    font-size: large;
+    text-decoration:underline;
+    text-align: center;
+    color: lightskyblue;
+    text-transform: uppercase;
+}
+/*
+file paths
+../CSS FILES/SECTION 8/HTML5.CSS
+*/
+
+body {
+    font-family: cursive;
+    background:-webkit-linear-gradient(top,black,lightpink,pink,deeppink,deepskyblue,black )  ;
+    color: white;
+}
+
+h2{
+    font-family: Backslash;
+    text-align: center;
+    color:lightskyblue;
+    background:rgb(247, 96, 176);  
+    border-radius: 20px;
+    border:5px ridge deepskyblue;
+}
+
+
+
+/*THIS SECTION DESCRIBES TRANSITIONS*/
+#transitions-1{
+    font-family:Lesleydemo ;
+    width: 50px;
+    height: 17.5px;
+    background: limegreen;
+    transition: width 3s;
+ }
+ #transitions-1:hover {
+    width: 550px;
+    cursor: pointer;
+ }
+ 
+
+
+
+/*THIS SECTION DESCRIBES TRANSFORM:ROTATE()*/
+#transform{
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    background-color: #32CD32;
+ }
+#transform:hover{
+        width: 200px;
+        height: 150px;
+        margin: 30px;
+        background-color: #32CD32;
+        transform: rotate(10deg);
+        cursor: pointer;
+}
+#transform-angle{
+    float: right;
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    background-color: #32CD32;
+    transform: rotate(10deg);
+}
+#transform-angle:hover{
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    background-color: #32CD32;
+    transform: rotate(-10deg);
+    cursor: pointer;
+}
+ 
+ 
+
+
+
+
+
+/*THIS SECTION DESCRIBES TRANSFORM ORIGIN, TRANSLATE(), SKEW()*/
+div.empty-div {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+ }
+ div.green-div {
+    font-size: small;
+    margin: 20px;
+    padding: 40px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 3px solid white;
+    transform: rotate(15deg);
+    transform-origin: 25% 75%;
+ }
+ div.translate{
+    padding: 40px;
+    position: absolute;
+    background-color: #32CD32;
+    transform:translate(200px, 50px);
+ }
+ div.skew{
+    margin: 20px; 
+    float: right;
+    padding: 50px;
+    position: relative;
+    background-color: #32CD32;
+    transform: skew(30deg);
+}
+
+/*THIS SECTION DESCRIBES SCALE(), MULTIPLE TRANSFORMATIONS*/
+div.scale-1{
+    width: 200px;
+    height: 100px;
+    background-color: #8BC34A;
+    transform: scale(0.7, 0.7);
+    color:white;
+ }
+ div.scale-2 {
+    float: left;
+    margin: 60px;
+    width: 200px;
+    height: 100px;
+    background-color: #8bc34a;
+    transform: scale(1.5,1.5);
+    color:white;
+ }
+ div.multiple{
+    float: left;
+    margin: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: #8bc34a;
+    color:white;
+    transform: rotate(45deg) translate(100px);
+   }
+
+
+
+
+
+/*THIS SECTION DESCRIBES KEYFRAMES & ANIMATIONS*/
+div.keyframes-rule1 {
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation-name: colorchange;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+
+    
+ }
+ @keyframes colorchange {
+    0% {
+        border: 3px groove lime;
+        background-color: red;
+        background-image: url("png/deer.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    25% {
+        border: 3px groove  red;
+        background-color: lime;
+        background-image: url("png/boar.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    50% {
+        border: 3px groove  lightskyblue;
+        background-color: yellow;
+        background-image: url("png/tiger.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    75% {
+        border: 3px groove  yellow;
+        background-color: lightskyblue;
+        background-image: url("png/lion.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    100% {
+        border: 3px groove  black;
+        background-color: white;
+        background-image: url("png/zebra.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+ } 
+ div.keyframes-rule2 {
+    text-align: center; 
+    float: left; 
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: lime;
+    animation-name: colorchange2;
+    animation-duration: 20s;
+    animation-timing-function: ease-1n;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+
+ }
+ @keyframes colorchange2 {
+    0% {
+        border: 3px groove red;
+        background-color: lime;
+        background-image: url("png/boar.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    25% {
+        border: 3px groove lime;
+        background-color: red;
+        background-image: url("png/deer.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    50% {
+        border: 3px groove yellow;
+        background-color: lightskyblue;
+        background-image: url("png/lion.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    75% {
+        border: 3px groove  lightskyblue;
+        background-color: yellow;
+        background-image: url("png/tiger.png");
+        background-repeat: no-repeat;
+        background-size: contain;}
+    100% {
+        border: 3px groove white;
+        background-color:black;
+        background-image: url("png/zebra.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+ } 
+ div.keyframes-rule3{
+    float: left; 
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorchange3;
+    animation-duration: 1s;
+    animation-iteration-count:5;
+ }
+ @keyframes colorchange3 {
+    from {background-color: red;}
+    to {background-color: green;}
+ }
+
+
+
+
+
+
+
+
+
+
+/*THIS SECTION DESCRIBES ANIMATION PROPERTIES*/
+div.animation1 {
+    font-family: Sectar;
+    margin:20px;
+    float:center;
+    text-align: center;
+    height:100px;
+    width:0px;
+    background-color:white;
+    animation-name: colorchan;
+    animation-duration: 21s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+
+}
+@keyframes colorchan {
+ 0%  {width: 0px; background-color: red;}
+    10% {width: 25px; background-color: orange;}
+    20% {height: 50px; background-color:yellow;}
+    40% {height: 80px; background-color:lime;}
+    60% {height: 80px; background-color: lightskyblue;}
+    80% {width: 75px; background-color:indigo;}
+    100%{width: 125px; background-color: violet;}
+}
+
+div.animation2 {
+    font-family: HelloMelda;
+    margin: 20px;
+    float:left;
+    text-align: center;
+    height:0px;
+    width:100px;
+    background-color:white;
+    animation-name: colorchano;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+
+}
+@keyframes colorchano {
+    0%  {height: 0px; background-color: red;}
+    10% {height: 25px; background-color: orange;}
+    20% {width: 50px; background-color:yellow;}
+    40% {width: 80px; background-color:lime;}
+    60% {width: 80px; background-color: lightskyblue;}
+    80% {height: 75px; background-color:indigo;}
+    100%{height: 125px; background-color: violet;}
+
+}
+
+div.animation3{
+    font-family: HigherJump;
+    margin: 20px;
+    float:left;
+    text-align: center;
+    height:0px;
+    width:100px;
+    background-color:white;
+    animation-name: colorchane;
+    animation-duration: 21s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+
+}
+@keyframes colorchane {
+    0%  {
+        height: 0px;
+        background-color: red;
+        }
+    10% {
+        height: 25px; 
+        background-color: orange;
+    }
+    20% {
+        width: 50px;
+        background-image: url("png/boar.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color:yellow;
+    }
+    40% {
+        width: 80px;
+        background-image: url("png/deer.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color:lime;
+    }
+    60% {
+        width: 80px;
+        background-image: url("png/fire.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: lightskyblue;
+    }
+    80% {
+        height: 75px;
+        background-image: url("png/Dog house.png");
+        background-repeat: no-repeat;
+        background-size: contain; 
+        background-color:indigo;
+    }
+    100%{
+        height: 125px; 
+        width: 125px;
+        background-image: url("png/bear.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: violet;
+    }
+
+}
+
+/*THIS SECTION DESCRIBES 3D TRANSFORMS*/
+
+div.X {
+    width:250px;
+    height:100px;
+    color:white;
+    background-color:green;
+    transform: rotateX(150deg);
+}
+div.Y {
+    width:250px;
+    height:100px;
+    color:white;
+    background-color:green;
+    transform: rotateY(150deg);
+}
+div.Z {
+    margin: 10px;
+    width:250px;
+    height:100px;
+    color:white;
+    background-color:green;
+    transform: rotateZ(150deg);
+}
+
+#mybox1 {
+    transform: translate3d(-20px, 4em, 10px);
+    width:250px;
+    height:100px;
+    color:white;
+    background-color:green;
+}
+
+div.empty1-div {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 180px;
+    padding: 10px;
+    border: 1px solid black;
+    perspective: 100px;
+}
+
+div.green2-div {
+    padding: 60px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid white;
+    transform: rotateX(45deg);
+}
+
