@@ -1,0 +1,82 @@
+/*div {
+    width: 50px;
+    height: 50px;
+    background: #32CD32;
+    transition: background-color 3s ease-in;
+ }
+ div:hover {
+    background-color: blue;
+ }
+ #intro {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: #32CD32;
+    transform: rotate(10deg);
+ }
+ #intro:hover{
+    
+ }
+
+
+   .animation-1 {
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    height:100px;
+    width:0px;
+    background-color:red;
+    -webkit-animation-name: colorchange;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: reverse;
+}
+@keyframes colorchange {
+    from { width: 0px; }
+    to { width: 100px; }
+}
+
+
+.animation-2 {
+    animation: colormango 3s ease-in 1s infinite reverse;
+    -webkit-animation: colormango 3s ease-in 1s infinite reverse;
+    height:100px;
+    background-color:red;
+    width:0px;
+}
+@keyframes colormangoe {
+    from { width: 0px; }
+    to { width: 100px; }
+}
+*/
+
+/*
+#container {
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: relative;
+}
+#box {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+}*/
+
+
+button {
+    margin-top:30px;
+    float:left;
+    height:50px;
+}
+img {
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+}

@@ -1,0 +1,103 @@
+nav {
+    padding: 50px 0;
+    min-width: 500px; 
+    background-color: rgb(192, 230, 255);
+    
+ }
+ nav ul {
+    background: 
+        linear-gradient(90deg, 
+      rgba(255, 255, 255, 0) 0%, 
+      rgba(255, 255, 255, 0.2) 25%, 
+      rgba(255, 255, 255, 0.2) 75%, 
+      rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+      inset 0 0 1px rgba(255, 255, 255, 0.6);
+ }
+
+ nav ul li {
+    display: inline-block;
+    cursor:pointer;
+ }
+
+ nav ul li a {
+    padding: 10px; 
+    color: #9ACD32;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+  }
+a:hover
+{color:yellow;}
+
+
+
+
+div.first {
+   float: left;
+   width: 300px; 
+   height: 100px;
+   margin: 4px;
+   color: #FFF;  
+   background:-webkit-linear-gradient(left, blue, green, white);
+} 
+div.second { 
+   float: left;
+   width: 300px; 
+   height: 100px;
+   margin: 4px;
+   background:-webkit-linear-gradient(bottom, blue, green, white);
+}
+
+
+
+/*
+
+.section2{
+    padding:100px;
+    background-image: url("ston.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1280px;
+    color:orangered;
+    background-color: aquamarine;
+    margin:25px;
+    padding:250px;
+}
+
+img
+{
+    float:right;
+}
+.section1{
+    background-color: aquamarine;
+    padding:200px;
+    margin:21px;
+    border-style:dotted;
+    border-color:red;
+    border-width:10px;
+
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red;
+  }
+  ol.lower-alpha {
+    list-style-type: lower-alpha;
+ }
+ ul.circle {
+    list-style-type: circle;
+ }
+ ul.square {
+    list-style-type: square;
+ }
+
+
+ .section3 span {
+    display: block;
+    visibility: hidden;
+}
+
+
+ul{
+    list-style-image: url("iguana.png");
+}*/
