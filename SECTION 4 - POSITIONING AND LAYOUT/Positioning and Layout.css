@@ -1,0 +1,241 @@
+@font-face{
+   font-family: Sectar ;
+   src: url('Sectar.otf');
+}@font-face{
+   font-family:Backslash;
+   src: url('Backslash.otf'); 
+}@font-face{
+   font-family:HelloMelda ;
+   src: url('HelloMelda.otf');
+}@font-face{
+   font-family:Lesleydemo ;
+   src: url('Lesleydemo.otf');
+}@font-face{
+   font-family:HigherJump ;
+   src: url('HigherJump.ttf');
+}@font-face{
+   font-family:BillionDreams ;
+   src: url('BillionDreams.ttf');
+}@font-face{
+   font-family:summermiracle ;
+   src: url('summermiracle.ttf');
+}@font-face{
+   font-family:LovelygirlyDemo ;
+   src: url('LovelygirlyDemo.otf');
+}@font-face{
+   font-family:MonkeyactPersonaluse ;
+   src: url('MonkeyactPersonaluse.otf');
+}@font-face{
+   font-family:Cointa ;
+   src: url('Cointa.ttf');
+}@font-face{
+   font-family:BeautifulPeoplePersonalUse ;
+   src: url('BeautifulPeoplePersonalUse.ttf');
+}@font-face{
+   font-family:LovelyHome ;
+   src: url('LovelyHome.ttf');
+}@font-face{
+   font-family:saturday ;
+   src: url('saturday.ttf');
+}@font-face{
+   font-family:saturdaybold ;
+   src: url('saturdaybold.ttf');
+}@font-face{
+   font-family:saturdaythin ;
+   src: url('saturdaythin.ttf');
+}@font-face{
+   font-family:stylishdemo ;
+   src: url('stylishdemo.ttf');
+}@font-face{
+   font-family:BeautifulPeoplePersonalUse(2) ;
+   src: url('BeautifulPeoplePersonalUse(2).ttf');
+}
+ 
+
+
+
+header{
+    color: dimgrey;
+    font-family: fantasy;
+    font-size: large;
+    text-decoration:underline;
+    text-align: center;
+    background-image: url("tiger.png"),url("lion.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: left top, right top;  
+}
+
+body{
+   background-color: rgb(164, 233, 164);
+   font-family: cursive;
+}
+
+h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+color: chartreuse;
+background: dimgrey;
+background-image: url("tiger.png"),url("lion.png");
+background-size: 50px 50px;
+background-repeat:repeat-y;
+background-position: left top, right top;
+background-attachment:fixed; 
+border-radius: 20px;
+border:2px ridge chartreuse ; 
+}
+
+
+/*THIS SECTION DESCRIBES THE DISPLAY PROPERTY*/
+ span{
+    display: block;
+    text-align: center;
+ }
+ .display p {
+    display: inline;
+ }
+ h6 {
+    display: none;
+ }
+
+
+ /*THIS SECTION DESCRIBES THE VISIBILITY PROPERTY*/
+ div.hidden {
+   visibility: hidden;/* this hides an element,but it will still take up the same space as before*/
+}                     /*the element will be hidden, but it will still affect the layout*/
+
+div.none {
+   display: none;/* display: none hides an element, without holding a place for that element*/
+}
+
+
+/*THIS SECTION DESCRIBES POSITIONING*/
+p.position_static {
+   position:static;
+   top: 30px;
+   right: 5px;
+   color: rgb(218, 91, 91);
+}
+p.position_fixed {
+   position: fixed;
+   top: 30px;
+   right: 5px;
+   color: red;
+}
+
+/*
+.jackass p {
+   width: 350px;
+   border: 1px black solid;
+   position: fixed;
+}
+.jackass p>span {
+   background: green;
+   color:white;
+   position: relative;
+   top: 150px;
+   left: 50px;
+}
+
+.tiger img {
+   float: left;
+   width: 120px;
+   margin-right: 10px;
+}
+*/
+
+ /*THIS SECTION DESCRIBES FLOATING*/
+ img {
+   float:right;
+}
+
+
+
+
+
+
+ /*THIS SECTION DESCRIBES THE CLEAR PROPERTY*/
+ .floating {
+   float: right;
+}
+.clearing {    
+   clear: both;
+}
+
+
+
+ /*THIS SECTION DESCRIBES THE OVERFLOW PROPERTY*/
+ .overflow {
+   margin-right: 20px;
+   width: 150px;
+   height: 150px;
+   background-color: LightBlue;
+   float: left;
+ }
+ .scroll{
+   width: 150px;
+   height: 150px;
+   background-color: LightBlue;
+   float: left;
+   overflow: scroll;
+}
+.leon {
+   margin-right: 20px;
+   width: 150px;
+   height: 150px;
+   float: left;
+ }
+ .notseen{
+   width: 150px;
+   height: 150px;
+   background-color: LightBlue;
+   float: left;
+   overflow: hidden;
+}
+
+
+
+
+
+
+ /*THIS SECTION DESCRIBES THE Z-INDEX PROPERTY*/
+ .blue { 
+   background-color: #8EC4D0;
+   margin-bottom: 15px;
+   width: 120px;
+   height: 120px;
+   color: #FFF;
+}
+.red {
+   background-color: #FF4D4D;
+   position: relative;
+   width: 120px;
+   height: 120px;
+   color: #FFF;
+   margin-top: -50px;
+   margin-left: 50px;
+   margin-bottom:10px ;
+}
+.lime {
+   background-color:lime;
+   margin-bottom: 15px;
+   width: 120px;
+   height: 120px;
+   color: #FFF;
+   z-index: 3; 
+   position: relative;
+}
+.yellow {
+   background-color: yellow;
+   position: relative;
+   width: 120px;
+   height: 120px;
+   color: #FFF;
+   margin-top: -50px;
+   margin-left: 50px;
+   z-index: 2;
+   position: relative;
+}
+
+
+

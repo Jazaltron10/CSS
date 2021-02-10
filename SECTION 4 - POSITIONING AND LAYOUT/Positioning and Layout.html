@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Positioning and Layout.css">
+        <title>POSITIONING AND LAYOUT</title>
+    </head>
+    <body>
+        <header>
+               <h1> SECTION 4 - POSITIONING AND LAYOUT </h1> 
+        </header>
+        <article>
+            <section class=display>
+                <h2>THIS SECTION DESCRIBES THE DISPLAY PROPERTY</h2>
+                <span>First paragraph.</span>
+                <span>Second paragraph.</span>
+                <span>Third paragraph.</span>
+                <span>Fourth paragraph.</span>
+                <span>Fifth paragraph.</span>
+                  
+                
+                <p>First paragraph.</p>
+                <p>Second paragraph.</p>
+                <p>Third paragraph.</p>
+                <p>Fourth paragraph.</p>
+                <p>Fifth paragraph.</p><br/><br/>
+                    
+
+                <h6>This text will not display, as we set the value to none.</h6>
+                <p>Headline of this paragraph is not displayed, as we set the value to none.</p>
+            </section>
+
+
+            <section>
+                <h2>THIS SECTION DESCRIBES THE VISIBILITY PROPERTY</h2>
+                <h1>This is a heading</h1>
+                <div class="hidden">
+                   This text will not display in browser.
+                </div>
+                <p>
+                   The space above this paragraph is empty because 
+                   the <strong>visibility</strong> of the div element is set to <strong>hidden</strong>.
+                </p>
+
+                <h1>This is a heading</h1>
+                <div class="none">
+                    This text will not display in browser.
+                </div>
+                    <p>
+                        As you can see the page displayed as if the div element is not there.
+                    </p><br/>
+            </section>
+
+
+            <section class="positioning">
+                <h2>THIS SECTION DESCRIBES POSITIONING</h2>
+                <p>Paragraph with no position.</p>
+                <p>Paragraph with no position.</p>
+                <p>Paragraph with no position.</p>
+                <p>Paragraph with no position.</p>
+                <p>Paragraph with no position.</p>
+                <p class="position_static">This paragraph has a static position.</p>
+
+
+
+                <p>Paragraph with no position.</p>
+                <p>Paragraph with no position.</p>
+                <p>Paragraph with no position.</p>
+                <p>Paragraph with no position.</p>
+                <p>Paragraph with no position.</p>
+                <p class="position_fixed">This paragraph has a fixed position.</p>
+
+                <!--
+                <P class="jackass">
+                This is some paragraph with<span>span</span> inside it. This is
+                some paragraph with <span>span</span> inside it. This is some
+                paragraph with <span>span</span> inside it.
+                </P>-->
+            </section>
+
+
+            <section>
+                <h2>THIS SECTION DESCRIBES FLOATING</h2>
+                <p><img src="lion.png" height="120px" width="120px"/>
+                    This paragraph has an image that is floated to the <strong>right.</strong> 
+                    It is highly recommended to add a margin to images so that the text does 
+                    not get too close to the image. If you want your text to be easily read, you 
+                    should always add a few pixels between words and borders, images, and other 
+                    content. This paragraph has an image that is floated to the <strong>right.
+                    </strong> It is highly recommended to add a margin to images so that the text 
+                    does not get too close to the image. If you want your text to be easily read,
+                    you should always add a few pixels between words and borders, images, 
+                    and other content.
+                </p>
+
+                
+            </section>
+
+            <section>
+                <h2>THIS SECTION DESCRIBES THE CLEAR PROPERTY</h2>
+                This paragraph is above the div element 
+                and is not affected by the float right property. 
+                <br /><br />
+                <div class="floating">
+                    <img src="tiger.png" height="120px" width="120px"/>
+                </div>
+                This paragraph comes after the div element 
+                and is affected by the float right property. 
+                <br /><br />
+                This paragraph also comes after the div element
+                and is affected by the float right property.
+                <br /> <br /><br /> <br /><br /> <br />
+
+
+
+
+
+
+
+
+
+                This paragraph is above the div element 
+                and is not affected by the float right property. 
+                <br/><br/>
+                <div class="floating">
+                    <img src="zebra.png" height="120px" width="120px"/>
+                </div>
+                This paragraph comes after the div element 
+                and is affected by the float right property. 
+                <br/><br class="clearing"/>
+                This paragraph is out of the floating group 
+                and is not affected by the float right property.
+                <br/> <br/>
+            </section>
+            
+
+
+
+
+            <section>
+                <h2>THIS SECTION DESCRIBES THE Z-INDEX PROPERTY</h2>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                    <div class="lime"> The Z-index at work</div>
+                    <div class="yellow"></div>
+
+            </section>
+
+
+            <section>
+                <h2>THIS SECTION DESCRIBES THE OVERFLOW PROPERTY</h2>
+                <div class="overflow"> 
+                    This text is inside the div element, which has a blue 
+                    background color and is floated to the left. We set a specific 
+                    height and width for the div element, and as you can see, 
+                    the content cannot fit. 
+                </div>  
+                
+                
+
+                <div class="scroll"> 
+                    This text is inside the div element, which has a blue 
+                    background color and is floated to the left. We set a specific 
+                    height and width for the div element, and as you can see, 
+                    the content is <strong>Scrollable</strong>. 
+                </div>  
+
+
+                
+                <div class="leon"> 
+                    <img src="lion.png" height="120px" width="120px"/>
+                </div> 
+                
+                <div class="notseen"> 
+                    This text is inside the div element, which has a blue 
+                    background color and is floated to the left. We set a specific 
+                    height and width for the div element, and as you can see, 
+                    the content is <strong>Hidden</strong>. 
+                </div> 
+
+            </section>
+            
+            
+
+           
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+            
+            
+
+        </article>
+        
+    </body>
+</html>
