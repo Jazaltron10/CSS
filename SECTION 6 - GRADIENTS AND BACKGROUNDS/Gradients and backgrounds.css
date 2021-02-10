@@ -1,0 +1,347 @@
+@font-face{
+    font-family: Sectar ;
+    src: url('fonts/Sectar.otf');
+}@font-face{
+    font-family:Backslash;
+    src: url('fonts/Backslash.otf'); 
+}@font-face{
+    font-family:HelloMelda ;
+    src: url('fonts/HelloMelda.otf');
+}@font-face{
+    font-family:Lesleydemo ;
+    src: url('fonts/Lesleydemo.otf');
+}@font-face{
+    font-family:HigherJump ;
+    src: url('fonts/HigherJump.ttf');
+}@font-face{
+    font-family:BillionDreams ;
+    src: url('fonts/BillionDreams.ttf');
+}@font-face{
+    font-family:summermiracle ;
+    src: url('fonts/summermiracle.ttf');
+}@font-face{
+    font-family:LovelygirlyDemo ;
+    src: url('fonts/LovelygirlyDemo.otf');
+}@font-face{
+    font-family:MonkeyactPersonaluse ;
+    src: url('fonts/MonkeyactPersonaluse.otf');
+}@font-face{
+    font-family:Cointa ;
+    src: url('fonts/Cointa.ttf');
+}@font-face{
+    font-family:BeautifulPeoplePersonalUse ;
+    src: url('fonts/BeautifulPeoplePersonalUse.ttf');
+}@font-face{
+    font-family:LovelyHome ;
+    src: url('fonts/LovelyHome.ttf');
+}@font-face{
+    font-family:saturday ;
+    src: url('fonts/saturday.ttf');
+}@font-face{
+    font-family:saturdaybold ;
+    src: url('fonts/saturdaybold.ttf');
+}@font-face{
+    font-family:saturdaythin ;
+    src: url('fonts/saturdaythin.ttf');
+}@font-face{
+    font-family:stylishdemo ;
+    src: url('fonts/stylishdemo.ttf');
+}@font-face{
+    font-family:BeautifulPeoplePersonalUse(2) ;
+    src: url('fonts/BeautifulPeoplePersonalUse(2).ttf');
+}
+
+
+
+header{
+    font-family: fantasy;
+    font-size:large;
+    text-decoration:underline;
+    text-align: center;
+    color: red;
+}
+
+body {
+    font-family:LovelygirlyDemo;
+    font-size: x-large;
+    background-color: gold;
+    color: black;
+}
+
+h2{
+    font-size: small;
+    font-family: HigherJump;
+    text-align: center;
+    color:lime;
+    background:red ;  
+    border-radius: 20px;
+    border:5px ridge lime;
+}
+
+
+/*THIS SECTION DESCRIBES LINEAR GRADIENTS*/
+.gradient-1{
+    float: left;
+    padding: 50px;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    color: #FFF;  
+    background:linear-gradient(rgb(0, 255, 136), Black);
+ }
+ .g-repeat{
+    padding: 10px; 
+    float: right;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    background:-webkit-repeating-linear-gradient(white, green 20px);
+}
+
+ .g-colorstops{
+    float: left;
+    padding: 50px;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    color: #FFF; 
+    background:linear-gradient(blue 20%, yellow 30%, green 85%);
+}
+
+.g-direction1{
+    padding: 10px;
+    float: left;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    color: #FFF;  
+    background:-webkit-linear-gradient(left,darkgreen, lime, white);
+}
+.g-direction2{
+    padding: 10px;
+    float: left;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    background:-webkit-linear-gradient(bottom, darkgreen, lime, white);
+}
+.g-angle1{
+    padding: 10px;
+    float: right;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    color: #FFF;
+    background:-webkit-linear-gradient(bottom left, darkred, red,orange,yellow);
+}
+.g-angle2{
+    padding: 10px; 
+    float: right;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    background:-webkit-linear-gradient(100deg, red, deeppink, white);
+}
+
+
+
+
+/*THIS SECTION DESCRIBES RADIAL GRADIENTS*/
+div.ellipse {
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    color: #FFF;
+    background: -webkit-radial-gradient(green, yellow, blue);   
+ }
+ div.circle {
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    color: #FFF;
+    background: -webkit-radial-gradient(circle, green, yellow, blue); 
+ }
+
+ div.radial-position1 {
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    color: #FFF;
+    background: -webkit-radial-gradient(top left, green, yellow, blue);   
+ }
+ div.radial-position2 {
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    color: #FFF;
+    background: -webkit-radial-gradient(green 55%, yellow 75%, blue 100%); 
+ }
+ 
+div.radial-colorstops {
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    color: #FFF;
+    background: -webkit-radial-gradient(circle, green 40%, yellow 80%, blue 40%); 
+}
+
+
+
+/*THIS SECTION DESCRIBES BACKGROUND-SIZE*/
+div.bgsize-1 {
+    margin: 10px;
+    float: left;
+    height: 150px;
+    width: 200px;
+    border: 3px double lime;
+    background: url("png/bear.png") no-repeat 0% 0% grey;
+    background-size: 100px 100px;
+ }
+ div.bgsize-2 {
+    margin: 10px; 
+    float: left;
+    height: 150px;
+    width: 200px;
+    border: 3px ridge deeppink;
+    background: url("png/Dog house.png") no-repeat 100% 0% white;
+    background-size: 100px 100px;
+ }
+ div.bgsize-3 {
+    margin: 10px;
+    float: left;
+    height: 150px;
+    width: 200px;
+    border: 3px outset white;
+    background: url("png/owl.png") no-repeat 50% 100% brown; 
+    background-size: 100px 100px;
+ }
+ div.contain{
+    margin: 10px;
+    float: right;
+    height: 150px;
+    width: 200px;
+    border: 3px inset brown;
+    background: url("png/deer.png") no-repeat 50% 50% deepskyblue; 
+    background-size: contain;
+    text-align: center;
+ }
+ div.cover{
+    margin: 10px;
+    float: right;
+    height: 150px;
+    width: 200px;
+    border: 3px outset white;
+    background: url("png/boar.png") no-repeat 50% 100% lime; 
+    background-size: cover;
+    text-align: center;
+}
+
+
+/*THIS SECTION DESCRIBES BACKGROUND-CLIP*/
+#border-box{
+    border: 2px dotted black;
+    padding: 20px;
+    background: lightskyblue;
+    background-clip: border-box;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+ 
+}
+#padding-box {
+    border: 2px dotted black;
+    padding: 20px;
+    background: Lightgreen;
+    background-clip: padding-box;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+ }
+ #content-box {
+    border: 2px dotted black;
+    padding: 20px;
+    background: lightpink;
+    background-clip: content-box;
+    text-align: center; 
+}
+
+
+#bgclip-images{
+    height:100px;
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px dotted black;
+    background-color: burlywood;
+    background-image: url("png/scratcher.png");
+    background-clip: content-box;
+    background-size: contain ;
+    background-repeat: repeat-x;    
+    text-align: center;
+}
+
+/*THIS SECTION DESCRIBES TRANSPARENT BORDERS*/
+.transparent{
+        border: 20px solid rgba(0, 0, 0, 0.3);
+        width:200px;
+        position:relative;
+        top:50px;
+        left:50px;
+        background-color:white;
+        background-clip: padding-box; 
+
+}
+/*THIS SECTION DESCRIBES MULTIPLE BACKGROUND IMAGES*/
+.image1{
+    border: 10px groove limegreen;
+    width: 720px;
+    height: 360px;
+    background-image: url(png/deer.png),url(png/bear.png), url(png/boar.png), url(png/owl.png);
+    background-color:pink;
+    background-position: right bottom, left top,right,50% 50%;
+    background-size: 100px 100px;
+    background-repeat:no-repeat;
+  } 
+  .image2{
+    margin-top: 10px;
+    border: 10px groove limegreen;
+    background: 
+    url("png/fire.png") right top no-repeat,
+    url("png/Dog house.png")left top no-repeat white; 
+    background-size: 70px 70px;
+    height:360px;
+    width:720px; 
+  }
+
+
+
+/*THIS SECTION DESCRIBES OPACITY*/
+#img1 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: url("png/bear.png") white;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    float: left;
+    opacity: 1;
+}
+#img2 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: url("png/deer.png") white;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    float: left;
+    opacity: 0.5;
+}
+#img3 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: url("png/owl.png") white;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    float: left;
+    opacity: 0.25;
+}
