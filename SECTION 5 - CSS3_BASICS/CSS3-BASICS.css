@@ -1,0 +1,275 @@
+@font-face{
+    font-family: Sectar ;
+    src: url('Sectar.otf');
+}@font-face{
+    font-family:Backslash;
+    src: url('Backslash.otf'); 
+}@font-face{
+    font-family:HelloMelda ;
+    src: url('HelloMelda.otf');
+}@font-face{
+    font-family:Lesleydemo ;
+    src: url('Lesleydemo.otf');
+}@font-face{
+    font-family:HigherJump ;
+    src: url('HigherJump.ttf');
+}@font-face{
+    font-family:BillionDreams ;
+    src: url('BillionDreams.ttf');
+}@font-face{
+    font-family:summermiracle ;
+    src: url('summermiracle.ttf');
+}@font-face{
+    font-family:LovelygirlyDemo ;
+    src: url('LovelygirlyDemo.otf');
+}@font-face{
+    font-family:MonkeyactPersonaluse ;
+    src: url('MonkeyactPersonaluse.otf');
+}@font-face{
+    font-family:Cointa ;
+    src: url('Cointa.ttf');
+}@font-face{
+    font-family:BeautifulPeoplePersonalUse ;
+    src: url('BeautifulPeoplePersonalUse.ttf');
+}@font-face{
+    font-family:LovelyHome ;
+    src: url('LovelyHome.ttf');
+}@font-face{
+    font-family:saturday ;
+    src: url('saturday.ttf');
+}@font-face{
+    font-family:saturdaybold ;
+    src: url('saturdaybold.ttf');
+}@font-face{
+    font-family:saturdaythin ;
+    src: url('saturdaythin.ttf');
+}@font-face{
+    font-family:stylishdemo ;
+    src: url('stylishdemo.ttf');
+}@font-face{
+    font-family:BeautifulPeoplePersonalUse(2) ;
+    src: url('BeautifulPeoplePersonalUse(2).ttf');
+}
+
+
+
+header{
+    font-family: fantasy;
+    font-size: large;
+    text-decoration:underline;
+    text-align: center;
+    color: blue;
+}
+
+body {
+    background-color: deepskyblue;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: deeppink;
+    background:rgb(0, 50, 255) ;  
+    border-radius: 20px;
+    border:2px ridge deeppink;
+}
+
+/*THIS SECTION DESCRIBES THE INTRODUCTION TO CSS3*/
+
+
+
+/*THIS SECTION DESCRIBES VENDOR PREFIXES*/
+.vendor{
+    border:2px groove red ;
+    border-radius:24px ; 
+    color: aliceblue; 
+    background-color: darkblue;
+    margin-bottom:10px ;
+}
+
+
+
+
+/*THIS SECTION DESCRIBES ROUNDED CORNERS*/
+.rounded{
+    height: 200px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    float: left;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: lime;
+    color: white;
+    float :right ;
+    text-align: center;
+}
+
+
+
+
+/*THIS SECTION DESCRIBES BOX-SHADOW*/
+.shadow-a{
+    width: 300px;
+    height: 150px;
+    background-color:red;
+    box-shadow: 10px 10px #888888;
+    color: aliceblue;
+    float:left;
+ }
+ .shadow-a1{
+    color: deeppink; 
+    float:right;
+    width:300px;
+}
+ .shadow-b{
+    width: 300px;
+    height: 150px;
+    background-color:orange;
+    color:deeppink;
+    float:left;
+    box-shadow: 10px 10px 5px 5px #888888;
+    text-align: center;
+ }
+ .shadow-c{
+    margin-left: 40px;
+    width: 300px;
+    height: 150px;
+    background-color:yellow;
+    color: deeppink;
+    float:right;
+    box-shadow: -15px -15px 5px -5px #888888;
+    text-align: center;
+}
+
+/*THIS SECTION DESCRIBES BOX-SHADOW TECHNIQUES*/
+.innershadow-a{
+    padding-top:20px;
+    width: 300px;
+    height: 150px;
+    box-shadow: inset 10px 10px 5px #888888;
+    background-color: cadetblue;
+    float:left;
+    text-align: center;
+}
+.innershadow-b{
+    padding-top: 20px;
+    color: aqua;
+    width: 300px;
+    height: 150px;
+    background-color: blueviolet;
+    float:right;
+    text-align: center;
+    box-shadow: 
+        inset 10px 10px 5px #888888, 
+        inset -10px -10px 5px #888888;
+    
+}
+.multipleshadow{
+    margin:20px;
+    color: deeppink;
+    width: 300px;
+    height: 150px;
+    background-color: lawngreen;
+    text-align: center;
+    box-shadow: 0 0 10px 4px #FF6347, 
+                0 0 10px 30px #FFDAB9, 
+                30px 0 20px 30px #B0E0E6;
+}
+
+/*THIS SECTION DESCRIBES THE TRANSPARENCY EFFECT*/
+nav {
+    padding: 50px 0;
+    min-width: 500px; 
+    background-image: url("gold.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ nav ul {
+    background: linear-gradient(90deg, 
+      rgba(255, 255, 255, 0) 0%, 
+      rgba(255, 255, 255, 0.2) 25%, 
+      rgba(255, 255, 255, 0.2) 75%, 
+      rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+      inset 0 0 1px rgba(255, 255, 255, 0.6);
+ }
+ nav ul li {
+    display: inline-block;
+}
+ nav ul li a {
+    padding: 10px; 
+    color: yellow;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+  }
+  a:hover
+  {
+    font-family: cursive;
+    color:lawngreen;
+    text-shadow:3px 3px 4px green;
+    font-size: xx-large;
+    text-decoration: none;
+ }
+ 
+
+
+
+/*THIS SECTION DESCRIBES THE TEXT SHADOW*/
+h4 {
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 5px 10px 2px #93968f, 
+                 -3px 6px 5px blue;
+ }
+
+
+/*THIS SECTION DESCRIBES PSEUDO CLASSES*/
+.parent p:first-child {
+    color: deeppink;
+    text-decoration: underline;   
+ }
+ .parent p:last-child {
+    color: blue;
+    text-decoration: underline;   
+ }
+
+/*THIS SECTION DESCRIBES PSEUDO ELEMENTS*/
+.elements p::first-line {
+    color: #589432;
+ }
+ .elements p::selection {
+    background: #8bc34a;
+    color: deeppink;
+ }
+.elements-2 p::before{
+        content: url("axe.png") ;
+}
+
+/*THIS SECTION DESCRIBES WORD-WRAP*/
+.wordwrap-a{
+        width: 210px; 
+        height: 100px;
+        border: 1px groove deeppink;
+        word-wrap: normal;
+    }
+.wordwrap-b{
+        width: 210px; 
+        height: 100px;
+        border: 1px ridge deeppink;
+        word-wrap: break-word;
+    }
+
+/*THIS SECTION DESCRIBES @FONT-FACE*/
+
+
