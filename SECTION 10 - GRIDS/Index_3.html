@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>The Grids That Ended The World</title>
+    <style>
+
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-auto-rows: minmax(100px,auto);
+            grid-gap: .5em;
+            justify-items:stretch;
+            align-items: stretch;
+        } 
+
+        
+        .container > section{
+            background: black;
+            padding: 1em;
+            color: red;
+        }
+        .container > section:nth-child(odd){
+            background: red;  
+            color: black;
+        }
+
+        .box1{
+            align-self: start;
+        }
+        .box2{
+            align-self: end;
+        }
+        .box3{
+            justify-self: end;
+        }
+        .box4{
+            
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    
+    <article class="container">
+        <section class="box box1">Box 1</section>
+        <section class="box box2">Box 2</section>
+        <section class="box box3">Box 3</section>
+        <section class="box box4">Box 4</section>    
+    </article>  
+    
+
+
+
+</body>
+</html>

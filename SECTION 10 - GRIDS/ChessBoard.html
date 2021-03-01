@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            color: red;
+            width:100%;
+            height:5em;
+            background-color:rgba(0,0,0,0.9);    
+            margin-bottom: 1em;
+            border:red groove 3px;
+            border-radius: 15px;
+        }
+        header > p {
+            padding: 1em;
+            text-align: center;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            grid-auto-rows: minmax(90px,auto);
+        }
+        /* .container > section{
+            background-color: white;
+            color: yellow;
+        }
+        .container > section:nth-child(odd){
+            background-color:black;
+        } */
+        
+        
+        
+        .container > section{
+            padding-top:35px;
+            text-align: center;
+        }
+        .side{
+            background: black;
+            color: white;
+        }
+        .main{
+            background: #ddd;
+        }
+        .side1{
+            background: #ddd;
+        }
+        .main1{
+            background: black;
+            color: white;
+        }
+        
+        footer{
+            color: red;
+            width:100%;
+            height:5em;
+            background-color:rgba(0,0,0,0.9);    
+            margin-top: 1em;
+            padding-top: 2em;
+            border:red groove 3px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header align=center> <p>
+        Chess Board Attempt
+    </p> </header>
+    <article class="container">
+        <section class="side">
+            a1
+        </section>
+        <section class="main">
+            b1
+        </section>
+        <section class="side">
+            c1
+        </section>
+        <section class="main">
+            d1
+        </section>
+        <section class="side">
+            e1
+        </section>
+        <section class="main">
+            f1
+        </section>
+        <section class="side">
+            g1
+        </section>
+        <section class="main">
+            h1
+        </section>
+
+
+
+        
+        <section class="side1">
+            a2
+        </section>
+        <section class="main1">
+            b2
+        </section>
+        <section class="side1">
+            c2
+        </section>
+        <section class="main1">
+            d2
+        </section>
+        <section class="side1">
+            e2
+        </section>
+        <section class="main1">
+            f2
+        </section>
+        <section class="side1">
+            g2
+        </section>
+        <section class="main1">
+            h2
+        </section>
+
+
+
+
+        <section class="side">
+            a3
+        </section>
+        <section class="main">
+            b3
+        </section>
+        <section class="side">
+            c3
+        </section>
+        <section class="main">
+            d3
+        </section>
+        <section class="side">
+            e3
+        </section>
+        <section class="main">
+            f3
+        </section>
+        <section class="side">
+            g3
+        </section>
+        <section class="main">
+            h3
+        </section>
+
+
+        <section class="side1">
+            a4
+        </section>
+        <section class="main1">
+            b4
+        </section>
+        <section class="side1">
+            c4
+        </section>
+        <section class="main1">
+            d4
+        </section>
+        <section class="side1">
+            e4
+        </section>
+        <section class="main1">
+            f4
+        </section>
+        <section class="side1">
+            g4
+        </section>
+        <section class="main1">
+            h4
+        </section> 
+
+
+        <section class="side">
+            a5
+        </section>
+        <section class="main">
+            b5
+        </section>
+        <section class="side">
+            c5
+        </section>
+        <section class="main">
+            d5
+        </section>
+        <section class="side">
+            e5
+        </section>
+        <section class="main">
+            f5
+        </section>
+        <section class="side">
+            g5
+        </section>
+        <section class="main">
+            h5
+        </section>
+
+
+
+        <section class="side1">
+            a6
+        </section>
+        <section class="main1">
+            b6
+        </section>
+        <section class="side1">
+            c6
+        </section>
+        <section class="main1">
+            d6
+        </section>
+        <section class="side1">
+            e6
+        </section>
+        <section class="main1">
+            f6
+        </section>
+        <section class="side1">
+            g6
+        </section>
+        <section class="main1">
+            h6
+        </section> 
+
+
+
+        <section class="side">
+            a7
+        </section>
+        <section class="main">
+            b7
+        </section>
+        <section class="side">
+            c7
+        </section>
+        <section class="main">
+            d7
+        </section>
+        <section class="side">
+            e7
+        </section>
+        <section class="main">
+            f7
+        </section>
+        <section class="side">
+            g7
+        </section>
+        <section class="main">
+            h7
+        </section>
+
+
+
+        <section class="side1">
+            a8
+        </section>
+        <section class="main1">
+            b8
+        </section>
+        <section class="side1">
+            c8
+        </section>
+        <section class="main1">
+            d8
+        </section>
+        <section class="side1">
+            e8
+        </section>
+        <section class="main1">
+            f8
+        </section>
+        <section class="side1">
+            g8
+        </section>
+        <section class="main1">
+            h8
+        </section> 
+
+        
+    
+    
+    
+    
+    
+    </article>
+<footer align=center>
+
+    This is a chess board attempt with CSS Grids.<br>
+    2021 @ jazaltron.inc.
+
+</footer>
+
+
+
+</body>
+</html>

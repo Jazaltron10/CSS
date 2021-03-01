@@ -1,0 +1,14 @@
+ .container{
+    display:grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr;
+    grid-gap: .25em;
+    
+} 
+
+.container > section{
+    background: pink;
+    padding: 1em;
+}
+.container > section:nth-child(odd){
+    background: deepSkyblue;
+}

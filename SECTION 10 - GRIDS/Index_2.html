@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+
+        .container{
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: .25em;
+            /* grid-auto-rows:100px ; */
+            grid-auto-rows: minmax(100px,auto);
+        } 
+
+        .nested{
+            display: grid;
+            grid-template-columns: repeat(3 , 1fr);
+            grid-auto-rows: 70px ;
+            grid-gap: 1em;
+        }
+
+        .container > section{
+            background: yellow;
+            padding: 1em;
+        }
+        .container > section:nth-child(odd){
+            background: lime;    
+        }
+
+        .nested > div{
+            border: 1px groove deepskyblue ;
+            padding: 1em;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    
+  <article class="container">
+
+    <section class="box1">Lorem ipsum dolor sit.</section>
+
+    <section class="box2">Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Officia, eos voluptatem. 
+        Vero, corporis laborum ducimus quia maxime quas 
+        earum adipisci veniam velit assumenda ipsa voluptate 
+        deleniti delectus, necessitatibus debitis itaque distinctio. 
+        At itaque veritatis aliquid inventore necessitatibus delectus 
+        sapiente quidem.
+    </section>
+
+    <section class="nested">
+        <div>Lorem</div>
+        <div>Lorem</div>
+        <div>Lorem</div>
+        <div>Lorem</div>
+        <div>Lorem</div>
+        <div>Lorem</div>
+        <div>Lorem</div>
+        <div>Lorem</div>
+        <div>Lorem</div>
+
+    </section>
+
+    <section class="box4">Lorem ipsum dolor sit.</section>
+
+    <section class="box5">Lorem ipsum dolor sit.</section>
+
+    <section class="box6">Lorem ipsum dolor sit.</section>
+    
+    <section class="box7">Lorem ipsum dolor sit.</section>
+
+    <section class="box8">Lorem ipsum dolor sit.</section>
+    
+
+  </article>  
+    
+
+
+
+</body>
+</html>

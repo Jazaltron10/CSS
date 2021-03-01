@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>The Grids That Ended The World</title>
+    <style>
+
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-auto-rows: minmax(100px,auto);
+            grid-gap: .25em;
+            justify-items:stretch;
+            align-items: stretch;
+        } 
+
+        
+        .container > section{
+            background: purple;
+            padding: 1em;
+            color: orange;
+        }
+        .container > section:nth-child(odd){
+            background:orange;  
+            color: purple;
+        }
+
+        .box1{
+            /* align-self: start; */
+            grid-column: 1/3;
+            grid-row: 1/3;
+            border-radius: .5em;
+        }
+        .box2{
+            /* align-self: end; */
+            border-radius: .5em;
+            grid-column:3;
+            grid-row:1/3;
+        }
+        .box3{
+            /* justify-self: end; */
+            border-radius: .5em;
+            grid-column:2/4;
+            grid-row:3;
+        }
+        .box4{
+            border-radius: .5em;      
+            grid-column: 1;
+            grid-row:2/4;
+            /* margin: 2em; */
+            border: lime 5px groove;
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    
+    <article class="container">
+        <section class="box box1">Box 1</section>
+        <section class="box box2">Box 2</section>
+        <section class="box box3">Box 3</section>
+        <section class="box box4">Box 4</section>    
+    </article>  
+    
+
+
+
+</body>
+</html>
