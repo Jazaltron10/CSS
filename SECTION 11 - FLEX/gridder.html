@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gridder</title>
+
+<style>
+    :root{
+        --radius:5px;
+        --padding:5px;
+    }
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns:repeat(4, 1fr);
+        grid-template-rows:0.2fr 1.5fr 1.2fr 0.8fr ;
+        grid-template-areas: 
+        "nav nav nav nav"
+        "sidebar main main main"
+        "sidebar content1 content2 content3"
+        "sidebar footer footer footer";
+        grid-gap:.2em;
+        font-family: cursive;
+        font-weight: 800;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #004d40;
+        text-align: center;
+    }
+    nav{
+        background-color: #a7ffeb;
+        grid-area: nav;
+        border-radius: var(--radius);
+        padding: var(--padding);
+    }
+    main{
+        background-color: #84ffff;
+        grid-area: main;
+        border-radius: var(--radius);
+        padding: var(--padding);
+    }
+    #sidebar{
+        background-color: #18ffff;
+        grid-area: sidebar;
+        border-radius: var(--radius);
+        padding: var(--padding);
+    }
+    #content1{
+        background-color:#6fffd2;
+        grid-area: content1;
+        border-radius: var(--radius);
+        padding: var(--padding);
+    }
+    #content2{
+        background-color:#6fffd2;
+        grid-area: content2;
+        border-radius: var(--radius);
+        padding: var(--padding);
+    }
+    #content3{
+        background-color:#6fffd2;
+        grid-area: content3;   
+        border-radius: var(--radius);
+        padding: var(--padding);     
+    }
+    footer{
+        background-color: #1de9b6;
+        grid-area: footer;
+        border-radius: var(--radius);
+        padding: var(--padding);
+        padding-bottom: 20px;
+    }
+
+    @media only screen and (max-width:550px){
+        .container{
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr ;
+            grid-template-areas: 
+            "nav"
+            "sidebar"
+            "main"
+            "content1"
+            "content2"
+            "content3"
+            "footer";
+
+        }
+    }
+
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <nav>Navbar <br>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing</div>
+        </nav>
+        <main>Main<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero unde minima ea voluptatem asperiores! Consequuntur vitae labore quibusdam error, nulla facilis iste. Sunt voluptatibus nisi pariatur fugiat nemo illum doloremque molestiae fuga, dolorum rerum quo assumenda expedita maiores porro ut consequatur praesentium! Sed consequuntur quas, eveniet delectus tempora earum similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sed deserunt quae fugit ut voluptate repudiandae aut maxime accusantium delectus saepe, vel dolor nulla exercitationem mollitia dolores aliquid blanditiis voluptates commodi rem id fuga iusto. Repudiandae ipsam laudantium adipisci libero itaque sed, praesentium est. Animi sit nihil neque repellendus odio ullam vitae commodi officia dolorem ipsa adipisci assumenda nulla perspiciatis eligendi corrupti, dolore quis illo dolor accusamus in. Labore consequatur dignissimos, quas, dolore illum dolorum aspernatur a consectetur ipsum quos natus dicta? Dolorem laborum excepturi rerum esse, minus debitis veritatis?<br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, ipsum eaque! Exercitationem sint obcaecati placeat reiciendis nostrum sunt, alias odio aspernatur natus quidem vitae nulla, laudantium iusto rerum consectetur cumque? Quas accusamus sunt ipsa, necessitatibus non incidunt sit animi, temporibus quibusdam eaque eum aliquam, ea modi beatae distinctio assumenda impedit ex itaque doloribus repudiandae omnis sint. Et qui omnis vel voluptate quibusdam nemo commodi fuga deleniti accusantium similique magni sit, necessitatibus, esse odit voluptatibus enim at dicta minus veniam possimus eum. Laudantium doloribus voluptatibus consequatur reprehenderit, assumenda odit animi sapiente labore impedit iusto dolor magni architecto fuga aperiam eius molestiae! <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt deleniti, quam suscipit rerum adipisci dolore quibusdam id fuga, molestiae perspiciatis pariatur quos consequuntur cumque officiis reiciendis architecto ipsum libero saepe odio. Illo quod voluptas tenetur recusandae quas fugiat labore numquam vero ex quisquam hic nisi necessitatibus assumenda, unde natus qui! <br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, ipsum eaque! Exercitationem sint obcaecati placeat reiciendis nostrum sunt, alias odio aspernatur natus quidem vitae nulla, laudantium iusto rerum consectetur cumque? Quas accusamus sunt ipsa, necessitatibus non incidunt sit animi, temporibus quibusdam eaque eum aliquam, ea modi beatae distinctio assumenda impedit ex itaque doloribus repudiandae omnis sint. Et qui omnis vel voluptate quibusdam nemo commodi fuga deleniti accusantium similique magni sit, necessitatibus, esse odit voluptatibus enim at dicta minus veniam possimus eum. Laudantium doloribus voluptatibus consequatur reprehenderit, assumenda odit animi sapiente labore impedit iusto dolor magni architecto fuga aperiam eius molestiae! <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt deleniti, quam suscipit rerum adipisci dolore quibusdam id fuga, molestiae perspiciatis pariatur quos consequuntur cumque officiis reiciendis architecto ipsum libero saepe odio. Illo quod voluptas tenetur recusandae quas fugiat labore numquam vero ex quisquam hic nisi necessitatibus assumenda, unde natus qui! <br>            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, ipsum eaque! Exercitationem sint obcaecati placeat reiciendis nostrum sunt, alias odio aspernatur natus quidem vitae nulla, laudantium iusto rerum consectetur cumque? Quas accusamus sunt ipsa, necessitatibus non incidunt sit animi, temporibus quibusdam eaque eum aliquam, ea modi beatae distinctio assumenda impedit ex itaque doloribus repudiandae omnis sint. Et qui omnis vel voluptate quibusdam nemo commodi fuga deleniti accusantium similique magni sit, necessitatibus, esse odit voluptatibus enim at dicta minus veniam possimus eum. Laudantium doloribus voluptatibus consequatur reprehenderit, assumenda odit animi sapiente labore impedit iusto dolor magni architecto fuga aperiam eius molestiae! <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt deleniti, quam suscipit rerum adipisci dolore quibusdam id fuga, molestiae perspiciatis pariatur quos consequuntur cumque officiis reiciendis architecto ipsum libero saepe odio. Illo quod voluptas tenetur recusandae quas fugiat labore numquam vero ex quisquam hic nisi necessitatibus assumenda, unde natus qui!
+        </main>
+        <div id="sidebar">sidebar<br>
+
+        </div>
+        <div id="content1">content1<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam alias, consequuntur nemo sunt ea minus corrupti est molestiae illo iusto.
+        </div>
+        <div id="content2">content2<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam alias, consequuntur nemo sunt ea minus corrupti est molestiae illo iusto.
+        </div>
+        <div id="content3">content3<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam alias, consequuntur nemo sunt ea minus corrupti est molestiae illo iusto.
+        </div>
+        <footer>Footer<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam alias, consequuntur nemo sunt ea minus corrupti est molestiae illo iusto.
+        </footer>
+    </div>
+</body>
+</html>

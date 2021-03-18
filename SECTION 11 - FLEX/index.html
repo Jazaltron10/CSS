@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @media(min-width: 568px){/*468 or 768px also worls here*/
+
+    *{
+        box-sizing: border-box;
+        background-color: dodgerblue;
+    }
+
+
+    @font-face{
+    font-family: AbrilFatface-Regular ;
+    src: url('Googlefonts/AbrilFatface-Regular.ttf');
+    }
+    @font-face{
+    font-family:AmaticSC-Bold  ;
+    src: url('Googlefonts/AmaticSC-Bold.ttf');
+    }
+    @font-face{
+    font-family: AmaticSC-Regular ;
+    src: url('Googlefonts/AmaticSC-Regular.ttf');
+    }
+    @font-face{
+    font-family: BerkshireSwash-Regular ;
+    src: url('Googlefonts/BerkshireSwash-Regular.ttf');
+    }
+    @font-face{
+    font-family: BlackOpsOne-Regular ;
+    src: url('Googlefonts/BlackOpsOne-Regular.ttf');
+    }
+    @font-face{
+    font-family: BungeeOutline-Regular ;
+    src: url('Googlefonts/BungeeOutline-Regular.ttf');
+    }
+    @font-face{
+    font-family: ButterflyKids-Regular ;
+    src: url('Googlefonts/ButterflyKids-Regular.ttf');
+    }
+    @font-face{
+    font-family: CabinSketch-Bold ;
+    src: url('Googlefonts/CabinSketch-Bold.ttf');
+    }
+    @font-face{
+    font-family: CabinSketch-Regular ;
+    src: url('Googlefonts/CabinSketch-Regular.ttf');
+    }
+    @font-face{
+    font-family: Chango-Regular ;
+    src: url('Googlefonts/Chango-Regular.ttf');
+    }
+    @font-face{
+    font-family: CinzelDecorative-Black ;
+    src: url('Googlefonts/CinzelDecorative-Black.ttf');
+    }
+    @font-face{
+    font-family: CinzelDecorative-Bold ;
+    src: url('Googlefonts/CinzelDecorative-Bold.ttf');
+    }
+    @font-face{
+    font-family: CinzelDecorative-Regular ;
+    src: url('Googlefonts/CinzelDecorative-Regular.ttf');
+    }
+    @font-face{
+    font-family: Creepster-Regular ;
+    src: url('Googlefonts/Creepster-Regular.ttf');
+    }
+    @font-face{
+    font-family: DancingScript-Bold ;
+    src: url('Googlefonts/DancingScript-Bold.ttf');
+    }
+    @font-face{
+    font-family: DancingScript-Medium ;
+    src: url('Googlefonts/DancingScript-Medium.ttf');
+    }
+    @font-face{
+    font-family: DancingScript-Regular ;
+    src: url('Googlefonts/DancingScript-Regular.ttf');
+    }
+    @font-face{
+    font-family: DancingScript-SemiBold ;
+    src: url('Googlefonts/DancingScript-SemiBold.ttf');
+    }
+    @font-face{
+    font-family: DancingScript-VariableFont_wght ;
+    src: url('Googlefonts/DancingScript-VariableFont_wght.ttf');
+    }
+    @font-face{
+    font-family: Diplomata-Regular ;
+    src: url('Googlefonts/Diplomata-Regular.ttf');
+    }
+
+
+    .container-1 {
+        display: flex;
+        /* align-items: flex-start; */
+        /* align-items: center;  */
+        /* flex-direction: column;    */
+        }
+        
+    .container-2{
+        display: flex;
+        justify-content:space-between;
+        }
+    }
+        
+    .container-1 div, .container-2 div, .container-3 div {
+        border: 1px black solid;
+        padding: 10px;
+    }
+
+
+    .container-3{
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content:space-between;
+    }
+
+
+    .box-1{
+        flex: 1;
+        /* order: 2; */
+        background-color: palevioletred;
+    }
+
+    .box-2{
+        flex: 1;
+        /* order: 1; */
+        background-color: palevioletred;
+    }
+
+    .box-3{
+        flex: 1;
+        /* order: 3; */
+        background-color: palevioletred;
+    }
+
+    .cbox{
+        flex-basis: 27%;
+        /* width: 20%; */
+        background-color: limegreen;
+    }
+
+    .abox{
+        flex-basis: 12%;
+        background-color: yellow;
+    }
+
+    h3{
+        text-align: center;
+        background-color: aliceblue;
+    }
+    footer{
+        margin-top: 1em;
+        height: 15vh;
+        background-color: rgba(255,255,255,0.3);
+        padding: 15px;
+    }
+    h1{
+        color: aliceblue;
+        text-align: center;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <div class="container-1">
+        <div class="box-1">
+            <h3>Box 1</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, minus.
+        </div>
+        <div class="box-2">
+            <h3>Box 2</h3>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, veritatis.
+        </div>
+        <div class="box-3">
+            <h3>Box 3</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, amet.
+        </div>
+    </div>
+    
+
+
+    <div class="container-2">
+        <div class="cbox">
+            <h3>Box 4</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut praesentium sit numquam autem laborum facilis aperiam impedit necessitatibus molestiae vero cumque quae fugit, illo ducimus fugiat perferendis veniam amet dolorem?
+        </div>
+        <div class="cbox">
+            <h3>Box 5</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab temporibus tempore, dicta, ratione magni nostrum sunt, cupiditate quae nulla suscipit accusantium ipsam dolores molestias! Pariatur aliquam quam id officia explicabo.
+        </div>
+        <div class="cbox">
+            <h3>Box 6</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, commodi illum! Repudiandae, dicta? Exercitationem provident placeat earum iusto? Maiores, accusantium? Voluptatibus iste quia culpa quis dignissimos id nemo excepturi quibusdam?
+        </div>
+    </div>
+
+
+
+    <div class="container-3">
+        <div class="abox">
+            <h3>Box 7</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut praesentium sit numquam autem laborum facilis aperiam impedit necessitatibus molestiae vero cumque quae fugit, illo ducimus fugiat perferendis veniam amet dolorem?
+        </div>
+        <div class="abox">
+            <h3>Box 8</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab temporibus tempore, dicta, ratione magni nostrum sunt, cupiditate quae nulla suscipit accusantium ipsam dolores molestias! Pariatur aliquam quam id officia explicabo.
+        </div>
+        <div class="abox">
+            <h3>Box 9</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, commodi illum! Repudiandae, dicta? Exercitationem provident placeat earum iusto? Maiores, accusantium? Voluptatibus iste quia culpa quis dignissimos id nemo excepturi quibusdam?
+        </div>
+    
+        <div class="abox">
+            <h3>Box 10</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut praesentium sit numquam autem laborum facilis aperiam impedit necessitatibus molestiae vero cumque quae fugit, illo ducimus fugiat perferendis veniam amet dolorem?
+        </div>
+        <div class="abox">
+            <h3>Box 11</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab temporibus tempore, dicta, ratione magni nostrum sunt, cupiditate quae nulla suscipit accusantium ipsam dolores molestias! Pariatur aliquam quam id officia explicabo.
+        </div>
+        <div class="abox">
+            <h3>Box 12</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, commodi illum! Repudiandae, dicta? Exercitationem provident placeat earum iusto? Maiores, accusantium? Voluptatibus iste quia culpa quis dignissimos id nemo excepturi quibusdam?
+        </div>
+    </div>
+
+<footer align="center">
+
+    <h1>
+        all rights reserved @Jazaltron.inc.
+    </h1>
+
+</footer>
+
+</body>
+
+</html>
