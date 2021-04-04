@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        header{
+            color: red;
+            width:100%;
+            height:5em;
+            background-color:rgba(0,0,0,0.9);    
+            margin-bottom: 1em;
+            border:red groove 3px;
+            border-radius: 15px;
+        }
+        
+        
+        .container{
+            /* width: 75%;  */
+            margin: 1em; 
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            grid-auto-rows: minmax(auto,100px);
+            grid-auto-columns:0px;
+        }
+        .container > section{
+            padding: 1em;
+        }
+        .side{
+            background: red;
+            color: white;
+        }
+        .main{
+            background: limegreen;
+        }
+        .side1{
+            background: limegreen;
+        }
+        .main1{
+            background: red;
+            color: white;
+        }
+
+        footer{
+            color: red;
+            width:100%;
+            height:5em;
+            background-color:rgba(0,0,0,0.9);    
+            margin-top: 1em;
+            padding-top: 2em;
+            border:red groove 3px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header align=center> 
+        
+
+        <h1>Chess Board Attempt</h1>
+            <!-- <img class="img1" src="Chess png/016-tournament.png" height="36 alt="">
+            <img class="img2" src="Chess png/028-timer.png" height="36" alt=""> -->
+                
+    </header>
+
+
+    <article class="container">
+        <section class="side">
+            <span> a8 </span> 
+            <img src="/SECTION 10 - GRIDS/Chess black/046-rook.png" height = "50px" alt="">
+        </section>
+        <section class="main">
+            <span> b8 </span> 
+            <img  src="/SECTION 10 - GRIDS/Chess black/044-knight.png" height = "50px" alt="">
+        </section>
+        <section class="side">
+            <span> c8 </span> 
+            <img  src="/SECTION 10 - GRIDS/Chess black/033-bishop.png" height = "50px" alt="">
+        </section>
+        <section class="main">
+            <span> d8 </span> 
+            <img  src="/SECTION 10 - GRIDS/Chess black/011-king.png" height = "50px" alt="">
+        </section>
+        <section class="side">
+            <span> e8 </span> 
+            <img  src="/SECTION 10 - GRIDS/Chess black/022-queen.png" height = "50px" alt="">
+        </section>
+        <section class="main">
+            <span> f8 </span> 
+            <img  src="/SECTION 10 - GRIDS/Chess black/033-bishop.png" height = "50px" alt="">
+        </section>
+        <section class="side">
+            <span> g8 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/044-knight.png" height = "50px" alt="">
+        </section>
+        <section class="main">
+            <span> h8 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/046-rook.png" height = "50px" alt="">
+        </section>
+
+
+
+        
+        <section class="side1">
+            <span> a7 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="main1">
+            <span> b7 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="side1">
+            <span> c7 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="main1">
+            <span> d7 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="side1">
+            <span> e7 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="main1">
+            <span> f7 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="side1">
+            <span> g7 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="main1">
+            <span> h7 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess black/047-pawn.png" height = "50px" alt="">
+        </section>
+
+
+
+
+        <section class="side">
+            a6
+        </section>
+        <section class="main">
+            b6
+        </section>
+        <section class="side">
+            c6
+        </section>
+        <section class="main">
+            d6
+        </section>
+        <section class="side">
+            e6
+        </section>
+        <section class="main">
+            f6
+        </section>
+        <section class="side">
+            g6
+        </section>
+        <section class="main">
+            h6
+        </section>
+
+
+        <section class="side1">
+            a5
+        </section>
+        <section class="main1">
+            b5
+        </section>
+        <section class="side1">
+            c5
+        </section>
+        <section class="main1">
+            d5
+        </section>
+        <section class="side1">
+            e5
+        </section>
+        <section class="main1">
+            f5
+        </section>
+        <section class="side1">
+            g5
+        </section>
+        <section class="main1">
+            h5
+        </section> 
+
+
+        <section class="side">
+            a4
+        </section>
+        <section class="main">
+            b4
+        </section>
+        <section class="side">
+            c4
+        </section>
+        <section class="main">
+            d4
+        </section>
+        <section class="side">
+            e4
+        </section>
+        <section class="main">
+            f4
+        </section>
+        <section class="side">
+            g4
+        </section>
+        <section class="main">
+            h4
+        </section>
+
+
+
+        <section class="side1">
+            a3
+        </section>
+        <section class="main1">
+            b3
+        </section>
+        <section class="side1">
+            c3
+        </section>
+        <section class="main1">
+            d3
+        </section>
+        <section class="side1">
+            e3
+        </section>
+        <section class="main1">
+            f3
+        </section>
+        <section class="side1">
+            g3
+        </section>
+        <section class="main1">
+            h3
+        </section> 
+
+
+
+        <section class="side">
+            <span> a2 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="main">
+            <span> b2 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="side">
+            <span> c2 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="main">
+            <span> d2 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="side">
+            <span> e2 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="main">
+            <span> f2 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="side">
+            <span> g2 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/047-pawn.png" height = "50px" alt="">
+        </section>
+        <section class="main">
+            <span> h2 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/047-pawn.png" height = "50px" alt="">
+        </section>
+
+
+
+        <section class="side1">
+            <span> a1 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/046-rook.png" height = "50px" alt="">
+        </section>
+        <section class="main1">
+            <span> b1 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/044-knight.png" height = "50px" alt="">
+        </section>
+        <section class="side1">
+            <span> c1 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/033-bishop.png" height = "50px" alt="">
+        </section>
+        <section class="main1">
+            <span> d1 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/011-king.png" height = "50px" alt="">
+        </section>
+        <section class="side1">
+            <span> e1 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white//022-queen.png" height = "50px" alt="">
+        </section>
+        <section class="main1">
+            <span> f1 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/033-bishop.png" height = "50px" alt="">
+        </section>
+        <section class="side1">
+            <span> g1 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/044-knight.png" height = "50px" alt="">
+        </section>
+        <section class="main1">
+            <span> h1 </span>
+            <img  src="/SECTION 10 - GRIDS/Chess white/046-rook.png" height = "50px" alt="">
+        </section>
+
+        
+    
+    
+    
+    
+    
+    </article>
+<footer align=center>
+
+    This is a chess board attempt with CSS Grids.<br>
+    2021 @ jazaltron.inc.
+
+</footer>
+
+
+
+</body>
+</html>
