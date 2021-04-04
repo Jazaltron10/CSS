@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pricing.css">
+    <title>Pricing</title>
+    
+
+</head>
+<body>
+
+    <button id="modalBtn" class="button">CLick Here</button>
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            
+            <div class="modal-body">
+                <p>Hello..... I am a Modal</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et officia ullam nobis cum nulla culpa quos adipisci, reprehenderit excepturi aliquid illo consequuntur at ea recusandae officiis unde ex voluptatem quidem!</p>
+            </div>
+        
+            <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // Get modal element 
+        var modal  = document.getElementById('simpleModal');
+        // Get open modal button
+        var modalBtn  = document.getElementById('modalBtn');
+        // Get close button
+        var closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+        //Listen for open click
+        modalBtn.addEventListener('click', openmodal);
+
+        //Listen for close click
+        closeBtn.addEventListener('click', closemodal);
+
+        //Listen for outside click
+        window.addEventListener('click',clickOutside); 
+
+        //Function to Open modal
+        function openmodal(){
+            modal.style.display = 'block';        
+        }
+ 
+        //Function to close modal
+        function closemodal(){
+            modal.style.display = 'none';        
+        }
+
+        //Function to close if outside click
+        function clickOutside(e){
+            if(e.target == modal){
+                modal.style.display = 'none';
+            }
+        }
+
+
+
+    </script>
+</body>
+</html>

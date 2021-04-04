@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+}
+.button{
+    background-color: coral;
+    padding: 1em 2em;
+    color: aliceblue;
+    border: 0;
+}
+.button:hover{
+    background-color: white;
+    color: coral;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s ease-out;
+}
+
+
+.modal{
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content{
+    background-color:red;
+    margin: 20% auto;
+    width: 400px;
+    /* width: 70%; */
+    box-shadow:0 5px 8px 0 rgba(0,0,0,0.2),0 10px 20px 0 rgba(0,0,0,0.5);
+    /*Added later*/
+    /*For animating the modal intro*/
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+.modal-header{
+    background-color: yellow;
+    color: red;
+    padding: 15px;
+}
+
+.modal-header h2,.modal-footer h3{
+    margin: 0;
+}
+.modal-body{
+    padding: 10px 20px;  
+}
+.modal-footer{
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+.closeBtn{
+    /* color: lime; */
+    float: right;
+    font-size: 30px;
+}
+.closeBtn:hover,.closeBtn:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+@keyframes modalopen{
+    from {opacity:0}
+    to {opacity:1}
+}

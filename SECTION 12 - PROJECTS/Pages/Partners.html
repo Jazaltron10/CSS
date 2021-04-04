@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partners</title>
+    <link rel="stylesheet" href="Partners.css">
+</head>
+<body>
+    <section class="showcase">  
+    <!--muted= you can also mute the song-->
+        <header>
+            <h2 class="logo">Limekreed</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <audio src="../Web videos/riri.mp3" loop autoplay></audio>
+        
+        <video src="../Web videos/Ocean Sunset View.mp4" muted loop autoplay ></video>
+        <div class="overlay"></div>
+        
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring The  Jazaltron Way</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quisquam quidem natus nam obcaecati accusantium asperiores adipisci porro impedit dicta.</p>
+
+            <a href="#">Explore</a>
+        </div>
+        
+        <ul class="social">
+            <li> <a href="#"><img src="../Icons/facebook-app-symbol.png" alt="" height="50px"></a></li>
+
+            <li><a href="#"><img src="../Icons/twitter.png" alt="" height="50px"></a></li>
+            
+            <li><a href="#"><img src="../Icons/instagram (2).png" alt="" height="50px"></a></li>
+            
+            <li><a href="#"><img src="../Icons/github.png" alt="" height="50px"></a></li>
+            
+            <li><a href="#"><img src="../Icons/linkedin.png" alt="" height="50px"></a></li>
+        </ul>
+</section>
+    
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <script>
+        const menuToggle = document.querySelector('.toggle'); 
+        const showcase = document.querySelector('.showcase');
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
